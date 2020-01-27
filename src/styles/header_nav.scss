@@ -1,0 +1,48 @@
+@import "variables";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 100px 28px 125px;
+
+  &__logo {
+    //display: inline-block;
+    background-image: url(/images/logo-min.png);
+    width: 131px;
+    height: 35px;
+    background-size: cover;
+
+    &_link {
+      display: block;
+      height: inherit;
+    }
+  }
+
+  &__bar {
+    //display: inline-block;
+    display: flex;
+    align-items: center;
+    &__line {
+      border: $c22 solid 1px;
+      display: inline-block;
+      width: 20px;
+      margin-right: 20px;
+      margin-bottom: 5px;
+    }
+    &__link {
+      display: inline-block;
+      text-transform: uppercase;
+
+      & a {
+        margin-right: 44px;
+        color: $c8;
+        font-family: $ff2;
+        font-weight: 700;
+      }
+
+      & a:hover {
+        color: $c4;
+      }
+    }
+  }
+}

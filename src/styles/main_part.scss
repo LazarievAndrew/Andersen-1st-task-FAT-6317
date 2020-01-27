@@ -1,0 +1,16 @@
+@import "variables";
+
+.main {
+
+  &_padding {
+    padding: 71px 131px 66px 130px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_container {
+    background-color: $c24;
+  }
+}
+
+

@@ -1,0 +1,38 @@
+@import "variables";
+
+.header-photo {
+  background-image: url("/images/header_img-min.png");
+  background-size: cover;
+  height: 350px;
+  padding-top: 116px;
+  padding-left: 123px;
+
+  &__title {
+    width: 550px;
+    background-color: #000000;
+    font-family: $ff2;
+    color: $c1;
+    text-align: center;
+    font-size: $fs7;
+    line-height: 56px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+  }
+
+  &__p {
+    color: $c4;
+    font-family: $ff2;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 550px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
+    margin-top: 44px;
+  }
+
+  &_container {
+    background-color: $c23;
+  }
+}

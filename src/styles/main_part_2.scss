@@ -1,0 +1,159 @@
+@import "variables";
+
+.second-part {
+  max-width: 358px;
+  background-color: $c1;
+
+  &__card1 {
+
+    &:hover {
+      background-color: $c4;
+      opacity: 0.85;
+      color: $c18;
+      transition-duration: 1s;
+
+      & * {
+        color: #d6d6d6;
+      }
+    }
+
+    &__info {
+      padding: 29px 36px 40px 45px;
+    }
+
+    &__title {
+      color: $c26;
+      font-size: $fs6;
+      line-height: 30px;
+    }
+
+    &__author {
+      color: $c5;
+      font-size: $fs2;
+      line-height: 30px;
+      font-weight: 700;
+
+      & span {
+        margin-left: 5px;
+      }
+
+      & i {
+        font-size: $fs1;
+      }
+    }
+
+    &__text {
+      line-height: 24px;
+      font-weight: 400;
+      color: #777777;
+      margin-top: 25px;
+      font-size: $fs2;
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 45px;
+      color: $c11;
+      line-height: 24px;
+      font-size: 13px;
+      font-weight: 400;
+
+      & div date {
+        margin-left: 5px;
+      }
+
+      & div:last-child i:last-child {
+        margin-left: 20px;
+      }
+    }
+
+  }
+
+  &__card2 {
+    background-image: url("/images/3-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 245px;
+    padding: 92px 149px 93px 151px;
+    margin-top: 34px;
+
+    &__play {
+      display: inline-block;
+      margin: 0 auto;
+      background-color: $c16;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      padding: 22px 21px 22px 23px;
+
+    }
+  }
+
+  &__card3 {
+
+    margin-top: 33px;
+
+    &:hover {
+      background-color: $c4;
+      opacity: 0.85;
+      color: $c18;
+      transition-duration: 1s;
+
+      & * {
+        color: #d6d6d6;
+      }
+    }
+
+    &__info {
+      padding: 29px 36px 40px 45px;
+    }
+
+    &__title {
+      color: $c26;
+      font-size: $fs6;
+      line-height: 30px;
+    }
+
+    &__author {
+      color: $c5;
+      font-size: $fs2;
+      line-height: 30px;
+      font-weight: 700;
+
+      & span {
+        margin-left: 5px;
+      }
+
+      & i {
+        font-size: $fs1;
+      }
+    }
+
+    &__text {
+      line-height: 24px;
+      font-weight: 400;
+      color: #777777;
+      margin-top: 25px;
+      font-size: $fs2;
+    }
+
+    &__footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 45px;
+      color: $c11;
+      line-height: 24px;
+      font-size: 13px;
+      font-weight: 400;
+
+      & div date {
+        margin-left: 5px;
+      }
+
+      & div:last-child i:last-child {
+        margin-left: 20px;
+      }
+    }
+  }
+}

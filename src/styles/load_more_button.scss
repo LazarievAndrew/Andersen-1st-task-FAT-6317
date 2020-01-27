@@ -1,0 +1,34 @@
+@import "variables";
+
+.load_more {
+
+  & button {
+    margin-left: 34%;
+    margin-bottom: 100px;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: $c15;
+    color: $c1;
+    font-size: $fs1;
+    line-height: 20.57px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.76px;
+    border: none;
+
+    &:hover {
+      background-color: $c14;
+      //transition-duration: 1s;
+    }
+
+    &:active {
+      background-color: black;
+    }
+  }
+
+  &__container {
+    background-color: $c24;
+  }
+}
