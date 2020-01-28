@@ -3,7 +3,7 @@
 .load_more {
 
   & button {
-    margin-left: 34%;
+    margin-left: 28%;
     margin-bottom: 100px;
     width: 125px;
     height: 30px;
@@ -20,7 +20,6 @@
 
     &:hover {
       background-color: $c14;
-      //transition-duration: 1s;
     }
 
     &:active {

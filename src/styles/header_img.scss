@@ -1,14 +1,14 @@
 @import "variables";
 
 .header-photo {
-  background-image: url("/images/header_img-min.png");
   background-size: cover;
   height: 350px;
   padding-top: 116px;
-  padding-left: 123px;
+  padding-left: 23px;
+  margin: 0 auto;
 
   &__title {
-    width: 550px;
+    max-width: 550px;
     background-color: #000000;
     font-family: $ff2;
     color: $c1;
@@ -34,5 +34,13 @@
 
   &_container {
     background-color: $c23;
+    margin: 0 auto;
+
+    & > div {
+      margin: 0 auto;
+      background-image: url("/images/header_img-min.png");
+      background-size: cover;
+      max-width: 1606px;
+    }
   }
 }

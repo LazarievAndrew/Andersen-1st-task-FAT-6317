@@ -3,10 +3,9 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 27px 100px 28px 125px;
+  padding: 27px 0 28px 25px;
 
   &__logo {
-    //display: inline-block;
     background-image: url(/images/logo-min.png);
     width: 131px;
     height: 35px;
@@ -19,11 +18,10 @@
   }
 
   &__bar {
-    //display: inline-block;
     display: flex;
     align-items: center;
     &__line {
-      border: $c22 solid 1px;
+      border-bottom: $c22 solid 1px;
       display: inline-block;
       width: 20px;
       margin-right: 20px;
@@ -38,6 +36,7 @@
         color: $c8;
         font-family: $ff2;
         font-weight: 700;
+        text-decoration: none;
       }
 
       & a:hover {
