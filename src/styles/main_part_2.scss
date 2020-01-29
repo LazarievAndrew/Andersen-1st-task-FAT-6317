@@ -59,8 +59,9 @@
       font-size: 13px;
       font-weight: 400;
 
-      & div date {
+      & div > div {
         margin-left: 5px;
+        display: inline-block;
       }
 
       & div:last-child i:last-child {
@@ -147,8 +148,9 @@
       font-size: 13px;
       font-weight: 400;
 
-      & div date {
+      & div > div {
         margin-left: 5px;
+        display: inline-block;
       }
 
       & div:last-child i:last-child {
